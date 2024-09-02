@@ -1,0 +1,20 @@
+/* IconsAnimation.css */
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.icons-container {
+    display: flex;
+    white-space: nowrap;
+}
+
+.animate-marquee {
+    animation: marquee 50s linear infinite;
+}
