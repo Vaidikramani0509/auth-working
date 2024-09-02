@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import axios from "axios";
 
-const API_URL = import.meta.env.MODE === "development" ? "https://auth-working-1.onrender.com/api/auth" : "/api/auth";
+const API_URL = import.meta.env.MODE === "development" ? "https://auth-working-1.onrender.com/api/auth" : "https://auth-working-1.onrender.com/api/auth";
 
 axios.defaults.withCredentials = true;
 
