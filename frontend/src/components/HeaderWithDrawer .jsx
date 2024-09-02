@@ -26,7 +26,7 @@ function HeaderWithDrawer() {
                 <button onClick={toggleDrawer} className="text-2xl">
                     &#9776; {/* Hamburger icon */}
                 </button>
-                <h1 className="text-xl">Welcome! {user?.name}</h1>
+                {/* <h1 className="text-xl">Welcome! {user?.name}</h1> */}
                 <button onClick={handleLogoutt} className="bg-black text-white hover:bg-red-700 p-2 rounded-lg">
                     Logout
                 </button>

@@ -51,8 +51,8 @@ const AuthorSection = () => {
 
       {/* Right Side - Author Info */}
       <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
-        <h2 className="text-3xl font-bold">{currentAuthor.name}</h2>
-        <p className="text-xl text-gray-600">{currentAuthor.designation}
+        <h2 className="text-3xl font-bold">{currentAuthor?.name}</h2>
+        <p className="text-xl text-gray-600">{currentAuthor?.designation}
         </p>
       </div>
 
